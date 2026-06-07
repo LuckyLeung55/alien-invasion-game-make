@@ -7,7 +7,7 @@ class Background:
         self.screen = ai_game.screen
         self.settings = ai_game.settings
 
-        self.image = pygame.image.load('main/images/yingyu.bmp')
+        self.image = pygame.image.load('main/images/paper.bmp')
         self.rect = self.image.get_rect()
         
         self.rect.width = self.settings.screen_width

@@ -3,7 +3,7 @@ class Settings:
     def __init__(self):
         """初始化游戏的静态设置"""
         self.screen_width = 1056
-        self.screen_height = 726
+        self.screen_height = 655
         
         self.bg_color = (220,220,220)
         
